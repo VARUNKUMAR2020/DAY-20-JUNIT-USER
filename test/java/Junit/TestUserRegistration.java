@@ -6,10 +6,14 @@ import org.junit.Test;
 
 public class TestUserRegistration {
 	@Test
-	public void userNameTestCase() {
+	public void firstNameTestCase() {
+		String Expected1 = UserRegistration.FirstName("Varun");
+		assertEquals("Varun", Expected1);
+	}
 
-		String Expected = UserRegistration.FirstName("Varun");
-		assertEquals("Varun", Expected);
-
+	@Test
+	public void lastNameTestCase() {
+		String Expected2 = UserRegistration.FirstName("Kumar");
+		assertEquals("Kumar", Expected2);
 	}
 }
