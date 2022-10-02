@@ -29,5 +29,10 @@ public class UserRegistrationTest {
 		String Expected4 = Test.Mobile("918870187077");
 		Assert.assertEquals("918870187077", Expected4);
 	}
+	@Test
+	public void passwordTestCase() {
+		String Expected4 = Test.Password("Vsuwjsi");
+		Assert.assertEquals("Vsuwjsi", Expected4);
+	}
 }
 
