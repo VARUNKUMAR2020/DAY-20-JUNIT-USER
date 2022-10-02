@@ -23,5 +23,11 @@ public class UserRegistrationTest {
 		String Expected3 = Test.emailAddress("varunvenkat2020@gmail.com");
 		Assert.assertEquals("varunvenkat2020@gmail.com", Expected3);
 	}
+	
+	@Test
+	public void mobileNumberCase() {
+		String Expected4 = Test.Mobile("918870187077");
+		Assert.assertEquals("918870187077", Expected4);
+	}
 }
 
