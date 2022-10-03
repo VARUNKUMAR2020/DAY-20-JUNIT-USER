@@ -31,8 +31,8 @@ public class UserRegistrationTest {
 	}
 	@Test
 	public void passwordTestCase() {
-		String Expected4 = Test.Password("VVs5uwjsi");
-		Assert.assertEquals("VVs5uwjsi", Expected4);
+		String Expected4 = Test.Password("VVs5uw@jsi");
+		Assert.assertEquals("VVs5uw@jsi", Expected4);
 	}
 }
 
